@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Title</title>
+    <link rel="stylesheet" href="styles/sudoku.css" />
+    <script type="javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="header-format">
+      <div class="img-container">
+        <img class="logo-format" src="images/logo.gif"> 
+      </div>
+      <div class="h1-container">
+        <h1>Sudoku Web</h1>
+      </div>
+    </div> 
+
+    <nav class="navbar">
+      <ul>
+        <li><a class="navbar-item" href="sudoku.html">Play Game</a></li>
+        <li><a class="navbar-item" href="highscore.html">High Score</a></li>
+      </ul>
+    </nav>
+    
+    <table id="board">
+      <tr>
+          <td></td>
+          <td>1</td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td>9</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td class="board-format-col">4</td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td>2</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="board-format-row">
+          <td></td>
+          <td></td>
+          <td class="board-format-col">8</td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col">5</td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td>3</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td>4</td>
+          <td class="board-format-col"></td>
+          <td>1</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr class="board-format-row">
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td class="board-format-col">1</td>
+          <td>8</td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td>6</td>
+          <td></td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>3</td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td>8</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td class="board-format-col">6</td>
+          <td></td>
+          <td></td>
+          <td class="board-format-col"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+      </tr>
+    </table>
+
+    <table id="palette">
+      <tr>
+        <td class="palette-format-col">1</td>
+        <td class="palette-format-col">2</td>
+        <td class="palette-format-col">3</td>
+        <td class="palette-format-col">4</td>
+        <td class="palette-format-col">5</td>
+        <td class="palette-format-col">6</td>
+        <td class="palette-format-col">7</td>
+        <td class="palette-format-col">8</td>
+        <td class="palette-format-col">9</td>
+        <td class="palette-format-col">9</td>
+        <td>
+          <img src="images/undo.png">
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
